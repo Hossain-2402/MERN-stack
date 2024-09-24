@@ -1,0 +1,259 @@
+.nevigations_display_area{
+  height:5vh;
+  width:70vw;
+  padding:1vh 1vw;
+  margin:2vh 0 0 50%;
+  transform: translate(-50%,0);
+  border-radius: 7px;
+  box-shadow: 0 0 15px black;
+  display: flex;
+  gap:1vw;
+}
+
+.logo_area{
+  flex:1;
+  border-radius: 7px;
+  box-shadow: 0 0 5px black;
+}
+
+.gap_area{
+  flex:7;
+  border-radius: 7px;
+}
+
+.buttons_area{
+  flex:1;
+  border-radius: 7px;
+  display: flex;
+  gap:1vw;
+  padding:0vh 1vw;
+}
+
+.create_product_button{
+  flex:1;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 25px;
+  cursor:pointer;
+}
+
+.extra_button{
+  flex:1;
+  box-shadow: 0 0 5px black;
+}
+
+.products_display_area{
+  height:auto;
+  width:95vw;
+  margin:10vh 0 0 50%;
+  transform: translate(-50%,0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:4vw 4vw;
+}
+
+.singal_product{
+  position: relative;
+  flex:1;
+  color:white;
+  height:30vh;
+  padding:2vh 2vh;
+  box-shadow: 0 0 20px black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singal_product_delete_button{
+  position: absolute;
+  top:1vw;
+  right:1vw;
+  padding:1vh 1vw;
+  background: #262626;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.singal_product_update_button{
+  position: absolute;
+  top:1vw;
+  left:1vw;
+  padding:1vh 1vw;
+  background: #262626;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.create_new_product_input_area{
+  position: fixed;
+  height:70vh;
+  width:90vw;
+  background: #262626;
+  left:50%;
+  transform: translate(-50%,0);
+  box-shadow: 0 0 100px black;
+  border-radius: 20px;
+  transition:.2s;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exit_create_new_product_input_area{
+  position: absolute;
+  height:5vh;
+  width:5vh;
+  top:1vw;
+  right:1vw;
+  background: #262626;
+  box-shadow: 0 0 10px black;
+  transform: rotate(45deg);
+  font-size:25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input_fields_in_create_new_product_input_area{
+  height:40%;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  gap:2vh;
+}
+
+.input_in_create_new_product_input_area{
+  flex:2;
+  border:none;
+  outline:none;
+  background: none;
+  color:white;
+  border-radius: 10px;
+  margin:0 2vw;
+  padding:1vh 0 1vh 2vw;
+  box-shadow: 0 0 10px black;
+}
+
+.add_new_product_btn{
+  flex:1;
+  padding:1vh 1vw;
+  box-shadow: 0 0 10px black;
+  margin:0 0 0 50%;
+  transform: translate(-50%,0);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.add_new_product_btn:hover{
+  box-shadow: 0 0 20px black;
+}
+
+
+
+
+.update_product_input_area{
+  position: fixed;
+  height:70vh;
+  width:90vw;
+  background: #262626;
+  left:50%;
+  transform: translate(-50%,0);
+  box-shadow: 0 0 100px black;
+  border-radius: 20px;
+  transition:.2s;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exit_update_product_input_area{
+  position: absolute;
+  height:5vh;
+  width:5vh;
+  top:1vw;
+  right:1vw;
+  background: #262626;
+  box-shadow: 0 0 10px black;
+  transform: rotate(45deg);
+  font-size:25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input_fields_in_update_product_input_area{
+  height:40%;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  gap:2vh;
+}
+
+.input_in_update_product_input_area{
+  flex:2;
+  border:none;
+  outline:none;
+  background: none;
+  color:white;
+  border-radius: 10px;
+  margin:0 2vw;
+  padding:1vh 0 1vh 2vw;
+  box-shadow: 0 0 10px black;
+}
+
+.update_product_btn{
+  flex:1;
+  padding:1vh 1vw;
+  box-shadow: 0 0 10px black;
+  margin:0 0 0 50%;
+  transform: translate(-50%,0);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.update_product_btn:hover{
+  box-shadow: 0 0 20px black;
+}
+
+@media(max-width:991px){
+  .nevigations_display_area{
+    width:90vw;
+    padding:1vh 2vw;
+  }
+
+  .gap_area{
+    flex:3;
+  }
+
+  .exit_create_new_product_input_area{
+    top:2vh;
+    right:2vh;
+  }
+}
